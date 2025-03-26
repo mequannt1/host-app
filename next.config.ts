@@ -10,7 +10,7 @@ const nextConfig = {
     const { isServer } = options;
     const remotes = {
       "auditing-remote": "auditing-remote@http://localhost:3002/_next/static/chunks/remoteEntry.js",
-      "hr-remote": "hr-remote@http://localhost:3003/_next/static/chunks/remoteEntry.js",
+      "hr-remote": "hr-remote@https://hr-remote.vercel.app/_next/static/chunks/remoteEntry.js",
       "recruitment-remote": "recruitment-remote@http://localhost:3004/_next/static/chunks/remoteEntry.js",
     };
 
